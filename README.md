@@ -1,0 +1,2 @@
+# Sneaker-Plug
+With our website we are able to login and create a new account. An admin is able to add a new product that can appear in our products page. We have many different sections such as the products page,feedback, about us and contact us page. You can be able to look through the different sneakers that we have on the website. We also had a checkout page but it was not fully functional so as a team we decided to scratch it and keep the website as is. 
