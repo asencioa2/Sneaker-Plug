@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    h1{
+        text-align: center;
+        color: purple;
+    }
+    
+    form{
+
+        display:inline-block;
+        width:200px;
+        margin-right:0px;
+        text-align:auto;
+    }
+    
+    body{
+        background-color: lightcoral
+    }
+    
+</style>
+</head>
+
+<body>
+    <div class = "container">
+        <H1 style = text-align: center><b>Sneaker Plug! Admin Page</b></H1>
+        <br>
+        <p><b>Add a new login?</b></p>
+        
+        <form action="admin_process.php" method="post">
+            <label for="Email">Email: </label>
+            <input type="email" name="email" id = "email">
+            <br>
+            <label for="pwd">Password: </label>
+            <input type="password" id="pwd" name = "pwd">
+            <br>
+            <label for="fname">First Name: </label>
+            <input type="input" id="fname" name = "fname">
+            <br>
+            <label for="lname">Last Name: </label>
+            <input type="input" name="lname" id = "lname">
+            <br>
+            <input type="submit" value="Register User" name = "submit1" id="submit1">
+            
+            <br><br><br>
+            
+        <p><b>Insert a new product?</b></p>
+            
+            <label for="product">Product Name: </label>
+            <input type="input" name="product" id = "product">
+            <br>
+            <label for="price">Price: </label>
+            <input type="input" id="price" name = "price">
+            <br>
+            <label for="size">Shoe Size:&nbsp; </label>
+            <input type="input" id="size" name = "size">
+            <br>
+            <label for="color">Color: </label>
+            <input type="input" name="color" id = "color">
+            <br>
+            <br>
+            <input type="submit" value="Add product" name = "submit2" id="submit2">
+
+	   <br><br><br>
+            <input type="submit" value="See all products" name = "submit3" id="submit3">
+            
+            
+            
+             
+        </form>
+    </div>
+
+    
+
+
+</body>
+</html>
